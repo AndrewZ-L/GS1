@@ -19,4 +19,7 @@ Este projeto disponibiliza um container Docker que permite verificar se credenci
 ```bash
 git clone https://github.com/seu-usuario/check-leak.git
 cd check-leak
+
+docker build -t check-leak .
+
 ```
